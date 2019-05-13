@@ -1,0 +1,35 @@
+<!doctype html>
+<!--    Name: Travis Suggitt
+        Assignment: CS390 Assignment #11
+        Created: 10/17/2018
+        Description: SignIn is a page created originally in Regis University CS390 and altered by Travis Suggitt to add
+           javascript-->
+
+<!--English language-->
+<html lang="en-US">
+<head>
+    <title>Sign In</title>
+    <script src="SignIn.js"></script>
+</head>
+<body>
+<table>
+
+    <tr>
+        <td>User Id (email address):</td>
+        <td><input type="text" name="userId" id="userId"/></td>
+    </tr>
+    <tr>
+        <td>Password One:</td>
+        <td><input type="password" name="password" id="password" /></td>
+    </tr>
+        <td>Password Two:</td>
+        <td><input type="password" name="password" id="password2"/></td>
+    </tr>
+
+</table>
+<p>Passwords must contain at least 8 characters, a number, and a special
+    symbol.</p>
+<p>Password Strength: <span id="strength">N/A</span></p>
+<p> <input type="submit" value="Sign In" disabled="true" id="button" /> </p>
+</body>
+</html>
